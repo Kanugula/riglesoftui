@@ -5,7 +5,7 @@
  * Time: 10:20 PM
  * To change this template use File | Settings | File Templates.
  */
-angular.module('reverApp.factories').factory('ReverServices', ['$http',
+angular.module('reverApp.factories').factory('ReverDataModel', ['$http',
     function ($http) {
         var dashboardData = [];
         return {

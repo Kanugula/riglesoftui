@@ -21,7 +21,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             getDashBoardData : function(){
                 return ReverServices.getDashboardData().then(function(response){
                     if(response.data.responseCode === 200){
-                        //ReverDataModel.setDashboardData(response.data);
+                        ReverDataModel.setDashboardData(response.data);
                     }else{
                     }
                 });
