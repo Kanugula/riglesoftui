@@ -1,0 +1,14 @@
+<div class="loginContainer">
+    <img src="images/yeoman.png" width="30p" height="30" class="item" style="align-self: center;">
+    <div style="text-align: center;" class="item">Sign in to Rever</div>
+    <div class="item">Username or email address</div>
+    <input type="text" placeholder="" class="item" ng-model="user.userName"/>
+    <div class="passwordLable item">
+        <lable>Password</lable><a href="javascript:void(0)">Forgot password</a>
+    </div>
+    <input type="password" placeholder="" class="item" ng-model="user.password"/>
+    <input class="btn btn-primary btn-block item" data-disable-with="Signing in…" name="commit" tabindex="3" type="submit" value="Sign in" ng-click="loginDashBoard()">
+    <div class="item" ng-show="showMsg">
+        <lable style='color: #d7541a;'>UserName and Password is required</lable>
+    </div>
+</div>
