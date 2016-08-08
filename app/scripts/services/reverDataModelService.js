@@ -9,6 +9,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
     function(ReverServices,$rootScope) {
         return {
             authenticateUser : function(user){
+                console.log(user);
                 return ReverServices.login(user).then(function(response){
                     if(response.data.responseCode === 200){
                         $rootScope.isUserLoggedIn = true;

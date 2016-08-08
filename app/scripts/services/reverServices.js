@@ -8,10 +8,10 @@
 angular.module('reverApp.factories').factory('ReverServices', ['$http',
     function ($http) {
         return {
-            loginURL : 'http://localhost:8080/api/auth/sign-in',
+            loginURL : 'http://localhost:9000/api/auth/sign-in',
             dashboardDataURL : '',
-            login : function(params){
-                return $http.get(this.loginURL,params);
+            login : function(data){
+                return $http.post(this.loginURL,data);
             },
 
             getDashboardData : function(){
