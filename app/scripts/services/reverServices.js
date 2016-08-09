@@ -11,7 +11,14 @@ angular.module('reverApp.factories').factory('ReverServices', ['$http',
             loginURL : 'http://localhost:9000/api/auth/sign-in',
             dashboardDataURL : '',
             login : function(data){
-                return $http.post(this.loginURL,data);
+                var params = 'username='  +data.username+ '&password=' +data.password;
+                return $http({
+                    method: 'POST',
+                    data: params,
+                    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                    url : this.loginURL
+                });
+                //return $http.post(this.loginURL,data);
             },
 
             getDashboardData : function(){

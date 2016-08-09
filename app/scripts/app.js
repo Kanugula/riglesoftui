@@ -37,7 +37,7 @@ angular
             }
         });
     })
-    .config(function ($routeProvider) {
+    .config(function ($routeProvider,$httpProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'views/login.html',
@@ -62,4 +62,11 @@ angular
             .otherwise({
                 redirectTo: '/'
             });
+        /**
+         * $http configuration
+         *
+         * Configuring $http requests to send cookies to cross domains
+         */
+        $httpProvider.defaults.withCredentials = true;
     });
+
