@@ -19,6 +19,7 @@ angular
         'ngTouch',
         'googlechart',
         'toaster',
+        'ui.bootstrap',
 
         'reverApp.factories',
         'reverApp.services',

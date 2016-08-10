@@ -1,3 +1,5 @@
+
+
 /*
 .browsehappy {
     margin: 0.2em 0;
@@ -160,6 +162,7 @@ body {
     display:flex;
     flex-flow: row wrap;
     flex:1;
+    align-items:center;
 
 }
 
@@ -168,6 +171,25 @@ body {
     margin-right:5%;
 }
 
+.dateUl li{
+    flex:1;
+}
+.dateUl li:not(:first-child) {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex:2;
+}
+
+.dateUl li:not(:first-child)>span:first-child {
+    margin-right: 5%;
+}
+
+
 .navbar {
     margin-bottom: inherit;
+}
+
+small[aria-label],em {
+    color:#000000;
 }
