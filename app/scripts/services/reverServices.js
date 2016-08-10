@@ -5,24 +5,29 @@
  * Time: 8:49 PM
  * To change this template use File | Settings | File Templates.
  */
-angular.module('reverApp.factories').factory('ReverServices', ['$http',
-    function ($http) {
+angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
+    function ($http,Assets) {
         return {
-            loginURL : 'http://localhost:9000/api/auth/sign-in',
+            loginURL : 'auth/sign-in',
+            uploadDataURL : '',
             dashboardDataURL : '',
             login : function(data){
-                var params = 'username='  +data.username+ '&password=' +data.password;
+                console.log(Assets.apiurl);
                 return $http({
                     method: 'POST',
-                    data: params,
+                    data: data,
                     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                    url : this.loginURL
+                    url :Assets.apiurl+ this.loginURL
                 });
                 //return $http.post(this.loginURL,data);
             },
 
+            getUploadData : function(){
+                return $http.get(Assets.apiurl+this.uploadDataURL);
+            },
+
             getDashboardData : function(){
-                return $http.get(this.dashboardDataURL,params);
+                return $http.get(Assets.apiurl+this.dashboardDataURL,params);
             }
 
         }

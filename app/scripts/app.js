@@ -17,6 +17,8 @@ angular
         'ngRoute',
         'ngSanitize',
         'ngTouch',
+        'googlechart',
+        'toaster',
 
         'reverApp.factories',
         'reverApp.services',
@@ -49,15 +51,25 @@ angular
                 controller: 'LoginCtrl',
                 controllerAs: 'login'
             })
+            .when('/upload', {
+                templateUrl: 'views/upload.html',
+                controller: 'UploadCtrl',
+                controllerAs: 'upload',
+                resolve : {
+                    uploadHistory : function(ReverDataModelService){
+                        return ReverDataModelService.getUploadHistory();
+                    }
+                }
+            })
             .when('/dashboard', {
                 templateUrl: 'views/dashboard.html',
                 controller: 'DashboardCtrl',
-                controllerAs: 'dashboard',
-                resolve : {
-                    DashBoardData : function(ReverDataModelService){
-                        return ReverDataModelService.getDashBoardData();
-                    }
-                }
+                controllerAs: 'dashboard'/*,
+                 resolve : {
+                 DashBoardData : function(ReverDataModelService){
+                 return ReverDataModelService.getDashBoardData();
+                 }
+                 }*/
             })
             .otherwise({
                 redirectTo: '/'
@@ -68,5 +80,6 @@ angular
          * Configuring $http requests to send cookies to cross domains
          */
         $httpProvider.defaults.withCredentials = true;
-    });
+        //$httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
+    });
