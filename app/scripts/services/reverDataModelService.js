@@ -5,8 +5,8 @@
  * Time: 8:56 PM
  * To change this template use File | Settings | File Templates.
  */
-angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverServices','$rootScope','ToasterService',
-    function(ReverServices,$rootScope,ToasterService) {
+angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverServices','$rootScope','ToasterService','$location','ReverDataModel',
+    function(ReverServices,$rootScope,ToasterService,$location,ReverDataModel) {
         return {
             authenticateUser : function(user){
                 console.log(user);
@@ -23,7 +23,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             getUploadHistory : function(){
                 return ReverServices.getUploadData().then(function(response){
                     if(response.data.responseCode === 200){
-                        ReverDataModel.setUploadData(response.data);
+                        ReverDataModel.setUploadHistory(response.data);
                     }else{
                     }
                 });
@@ -31,7 +31,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             getDashBoardData : function(){
                 return ReverServices.getDashboardData().then(function(response){
                     if(response.data.responseCode === 200){
-                        ReverDataModel.setDashboardData(response.data);
+                        ReverDataModel.getUploadHistory(response.data);
                     }else{
                     }
                 });

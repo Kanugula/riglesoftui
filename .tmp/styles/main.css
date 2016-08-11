@@ -169,6 +169,7 @@ body {
 .topNavigation ul li{
     list-style-type: none;
     margin-right:5%;
+    cursor: pointer;
 }
 
 .dateUl li{
@@ -192,4 +193,11 @@ body {
 
 small[aria-label],em {
     color:#000000;
+}
+
+.uploadButtons {
+    dispaly: flex;
+    flex:1;
+    flex-flow: row wrap;
+
 }

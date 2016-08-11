@@ -8,12 +8,19 @@
 angular.module('reverApp.factories').factory('ReverDataModel', ['$http',
     function ($http) {
         var dashboardData = [];
+        var uploadHistory = [];
         return {
             setDashBoardData : function(data){
                 dashboardData = data;
             },
             getDashboardData : function(){
                 return dashboardData;
+            },
+            setUploadHistory : function(data){
+                uploadHistory = data;
+            },
+            getUploadHistory : function(){
+                return uploadHistory;
             }
         }
     }]);

@@ -1,10 +1,10 @@
 node_modules
-.tmp/
-.idea/
+.tmp/*
+.idea
 dist
 npm-debug.log
 dist.zip
-test
+test/*
 *.class
 
 # Mobile Tools for Java (J2ME)
