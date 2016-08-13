@@ -1,4 +1,4 @@
-angular.module('portal.directives')
+angular.module('reverApp.directives')
   .directive('fileuploader', ['$timeout',function($timeout){
     var getTemplate = function(accept) {
       var template = '<input style="display:none" name="eventsfile" type="file" id="companyLogoUpload" accept="'+accept+'">';
