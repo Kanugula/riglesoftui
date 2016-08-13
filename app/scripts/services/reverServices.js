@@ -5,8 +5,8 @@
  * Time: 8:49 PM
  * To change this template use File | Settings | File Templates.
  */
-angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
-    function ($http,Assets) {
+angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets','Session',
+    function ($http,Assets,Session) {
         return {
             loginURL : 'auth/sign-in',
             uploadDataURL : 'upload',

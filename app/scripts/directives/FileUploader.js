@@ -1,4 +1,4 @@
-angular.module('reverApp.directives')
+angular.module('portal.directives')
   .directive('fileuploader', ['$timeout',function($timeout){
     var getTemplate = function(accept) {
       var template = '<input style="display:none" name="eventsfile" type="file" id="companyLogoUpload" accept="'+accept+'">';
@@ -13,6 +13,7 @@ angular.module('reverApp.directives')
         multiple: '=',
         resultHandler: "=",
         isReader: "=",
+        campaignType: '@',
         accept: '@'
       },
       controller: function($scope, FileUploaderService) {

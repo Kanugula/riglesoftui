@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" afterPath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverServices.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload.html" afterPath="$PROJECT_DIR$/app/views/upload.html" />
     </list>
     <ignored path="rever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,12 +18,12 @@
     <file path="/loginController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470813542264" ignored="false" />
     <file path="/login.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470660346398" ignored="false" />
     <file path="/reverServices.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471087333242" ignored="false" />
-    <file path="/reverDataModelService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471087277262" ignored="false" />
+    <file path="/reverDataModelService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471090315895" ignored="false" />
     <file path="/app.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470901220627" ignored="false" />
     <file path="/reverDataModel.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470900464902" ignored="false" />
     <file path="I:/iconic/app/common/controllers/CommonControllers.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470651267406" ignored="false" />
     <file path="/CommonControllers.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470650738139" ignored="false" />
-    <file path="/a.dummy" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471084357914" ignored="false" />
+    <file path="/a.dummy" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471091425137" ignored="false" />
     <file path="I:/iconic/app/home/models/HomeDataModelService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912174333" ignored="false" />
     <file path="I:/iconic/app/common/controllers/ProfileInformationController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470656913501" ignored="false" />
     <file path="I:/iconic/app/common/views/ProfileInformation.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470677829771" ignored="false" />
@@ -53,7 +56,7 @@
     <file path="/.gitignore" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470853960784" ignored="false" />
     <file path="I:/iconic/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854436366" ignored="false" />
     <file path="I:/portal/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854428049" ignored="false" />
-    <file path="/upload.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471085648728" ignored="false" />
+    <file path="/upload.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471092354119" ignored="false" />
     <file path="/uploadDataControlelr.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471081083637" ignored="false" />
     <file path="/AccountPayoutMethodController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470911587798" ignored="false" />
     <file path="I:/iconic/app/home/services/AccountService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912305806" ignored="false" />
@@ -69,6 +72,7 @@
     <file path="/CSVUpload.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471083787072" ignored="false" />
     <file path="I:/portal/app/scripts/directives/CSVUpload.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471083794988" ignored="false" />
     <file path="/fileUploaderService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471087421873" ignored="false" />
+    <file path="/FileUploader.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471092898942" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
       <file leaf-file-name="reverDataModelService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +104,7 @@
       <file leaf-file-name="upload.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="54" selection-start="696" selection-end="696" vertical-scroll-proportion="-10.807693">
+            <state line="26" column="89" selection-start="736" selection-end="736" vertical-scroll-proportion="-11.461538">
               <folding />
             </state>
           </provider>
@@ -124,22 +128,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="1" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUploader.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FileUploader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="816" selection-end="816" vertical-scroll-proportion="-15.64">
+            <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.93950176">
               <folding>
-                <marker date="1471084865670" expanded="false" signature="176:188" placeholder="..." />
-                <marker date="1471084865670" expanded="false" signature="3331:3343" placeholder="..." />
+                <marker date="1471093344930" expanded="false" signature="174:186" placeholder="..." />
+                <marker date="1471093344930" expanded="false" signature="3356:3368" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -148,25 +143,34 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="17" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
+            <state line="62" column="17" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverServices.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reverServices.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="0.33451957">
+            <state line="8" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteListener.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/listeners/RouteListener.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentLoaderService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="101" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,7 +179,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="65" selection-start="3725" selection-end="3725" vertical-scroll-proportion="-14.230769">
+            <state line="38" column="96" selection-start="1388" selection-end="1388" vertical-scroll-proportion="-11.615385">
               <folding />
             </state>
           </provider>
@@ -207,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
-        <option value="$PROJECT_DIR$/app/views/topNavigation.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/scripts/models/reverDataModel.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/Session.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/views/upload.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/constants.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js" />
+        <option value="$PROJECT_DIR$/app/views/upload.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
+        <option value="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
       </list>
     </option>
   </component>
@@ -355,6 +359,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="listeners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -399,8 +425,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\regilsoftui\riglesoftui\app\scripts\directives" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts\services" />
+      <recent name="I:\regilsoftui\riglesoftui\app\scripts" />
+      <recent name="I:\regilsoftui\riglesoftui\app\scripts\directives" />
       <recent name="I:\regilsoftui\riglesoftui\app\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -536,16 +563,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
@@ -574,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="65" selection-start="3725" selection-end="3725" vertical-scroll-proportion="-14.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="229" column="1" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.0">
@@ -591,37 +601,6 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="36" selection-start="816" selection-end="816" vertical-scroll-proportion="-15.64">
-          <folding>
-            <marker date="1471084865670" expanded="false" signature="176:188" placeholder="..." />
-            <marker date="1471084865670" expanded="false" signature="3331:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="54" selection-start="696" selection-end="696" vertical-scroll-proportion="-10.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="17" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -640,10 +619,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="96" selection-start="1388" selection-end="1388" vertical-scroll-proportion="-11.615385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="17" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="0.33451957">
+        <state line="8" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="89" selection-start="736" selection-end="736" vertical-scroll-proportion="-11.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/listeners/RouteListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="101" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.93950176">
+          <folding>
+            <marker date="1471093344930" expanded="false" signature="174:186" placeholder="..." />
+            <marker date="1471093344930" expanded="false" signature="3356:3368" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

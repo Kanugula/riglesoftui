@@ -25,8 +25,9 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             getUploadHistory : function(){
                 return ReverServices.getUploadData().then(function(response){
                     if(response.status === 200){
-                        ReverDataModel.setUploadHistory(response.data);
+                        ReverDataModel.setUploadHistory(response.data.result);
                     }else{
+                        ToasterService.showErrorMessage('error',"Error While Login");
                     }
                 });
             },
