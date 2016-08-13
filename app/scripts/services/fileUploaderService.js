@@ -93,7 +93,6 @@ angular.module('reverApp.services').factory('FileUploaderService',
                     };
                     xhr.open('POST',url);
                     xhr.setRequestHeader('Authorization',Session.get('regus_token'));
-                    xhr.setRequestHeader("Content-type", "multipart/form-data");
                     xhr.withCredentials = "true";
                     xhr.send(formData);
                 },
