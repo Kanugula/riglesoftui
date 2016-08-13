@@ -33,9 +33,13 @@ angular.module('reverApp.services').factory('FileUploaderService',
 
 
                     var formData = new FormData();
-                    for (var i = 0; i < $files.length; i++) {
+                    formData.append("file", $files[0]);
+                    console.log(formData,$files[0]);
+
+                    /*for (var i = 0; i < $files.length; i++) {
                         formData.append("file" + i, $files[i]);
-                    }
+                    }*/
+
                     var xhr = new XMLHttpRequest;
 
                     xhr.upload.onprogress = function(e) {

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" afterPath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard.html" afterPath="$PROJECT_DIR$/app/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" afterPath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/header.html" afterPath="$PROJECT_DIR$/app/views/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload.html" afterPath="$PROJECT_DIR$/app/views/upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rever.iws" />
@@ -36,14 +43,14 @@
     <file path="$USER_HOME$/Desktop/static/js/hello.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470743912575" ignored="false" />
     <file path="/dashboardController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470759430916" ignored="false" />
     <file path="I:/iconic/app/brandbusiness/controllers/accounts/BrandBusinessProfileInformationController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470747653296" ignored="false" />
-    <file path="/main.css" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471085491633" ignored="false" />
-    <file path="/dashboard.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470850235857" ignored="false" />
+    <file path="/main.css" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471102004375" ignored="false" />
+    <file path="/dashboard.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471101383817" ignored="false" />
     <file path="I:/iconic/app/common/directives/CommonDirectives.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470810642117" ignored="false" />
     <file path="/HomeDataModelService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912175755" ignored="false" />
     <file path="I:/iconic/app/home/views/enroll.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470832540685" ignored="false" />
     <file path="/constants.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470815018255" ignored="false" />
     <file path="/topNavigation.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470851441436" ignored="false" />
-    <file path="/header.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470824865527" ignored="false" />
+    <file path="/header.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471099060330" ignored="false" />
     <file path="I:/iconic/app/brandbusiness/router.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470829760459" ignored="false" />
     <file path="/router.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470829528362" ignored="false" />
     <file path="I:/iconic/app/home/listeners/RouteListener.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470832421236" ignored="false" />
@@ -54,7 +61,7 @@
     <file path="/.gitignore" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470853960784" ignored="false" />
     <file path="I:/iconic/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854436366" ignored="false" />
     <file path="I:/portal/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854428049" ignored="false" />
-    <file path="/upload.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471092354119" ignored="false" />
+    <file path="/upload.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471102023917" ignored="false" />
     <file path="/uploadDataControlelr.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471081083637" ignored="false" />
     <file path="/AccountPayoutMethodController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470911587798" ignored="false" />
     <file path="I:/iconic/app/home/services/AccountService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912305806" ignored="false" />
@@ -69,7 +76,7 @@
     <file path="I:/iconic/app/influencer/controllers/AllInvitationsGridController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471078829497" ignored="false" />
     <file path="/CSVUpload.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471083787072" ignored="false" />
     <file path="I:/portal/app/scripts/directives/CSVUpload.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471083794988" ignored="false" />
-    <file path="/fileUploaderService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471087421873" ignored="false" />
+    <file path="/fileUploaderService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471095152646" ignored="false" />
     <file path="/FileUploader.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471092898942" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,34 +100,83 @@
       <file leaf-file-name="reverDataModelService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0">
+            <state line="29" column="45" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fileUploaderService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="71" selection-start="4510" selection-end="4510" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="280" column="19" selection-start="4224" selection-end="4224" vertical-scroll-proportion="-20.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboardController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="73" selection-start="223" selection-end="235" vertical-scroll-proportion="-1.3076923">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="89" selection-start="736" selection-end="736" vertical-scroll-proportion="-11.461538">
-              <folding />
+            <state line="31" column="97" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.7973231">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#1;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="constants.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/constants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="41" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUploader.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FileUploader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="62" selection-start="603" selection-end="603" vertical-scroll-proportion="0.54448396">
+            <state line="16" column="72" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1471093770005" expanded="false" signature="176:188" placeholder="..." />
                 <marker date="1471093770005" expanded="false" signature="3358:3370" placeholder="..." />
@@ -129,19 +185,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="60" column="38" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,34 +197,7 @@
       <file leaf-file-name="reverServices.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteListener.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/listeners/RouteListener.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentLoaderService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="18" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="90" selection-start="3725" selection-end="3725" vertical-scroll-proportion="-8.346154">
+            <state line="27" column="29" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,22 +229,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js" />
-        <option value="$PROJECT_DIR$/app/scripts/models/reverDataModel.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/Session.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/constants.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js" />
-        <option value="$PROJECT_DIR$/app/views/upload.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
         <option value="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
+        <option value="$PROJECT_DIR$/app/views/header.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/views/upload.html" />
       </list>
     </option>
   </component>
@@ -405,6 +425,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -423,6 +461,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\regilsoftui\riglesoftui\app\images" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts\services" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts\directives" />
@@ -561,34 +600,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="160" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/models/reverDataModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/Session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="1" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
@@ -596,37 +607,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="65" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="41" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="89" selection-start="736" selection-end="736" vertical-scroll-proportion="-11.461538">
           <folding />
         </state>
       </provider>
@@ -652,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="18" selection-end="26" vertical-scroll-proportion="0.0">
@@ -668,10 +644,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="62" selection-start="603" selection-end="603" vertical-scroll-proportion="0.54448396">
+        <state line="16" column="72" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1471093770005" expanded="false" signature="176:188" placeholder="..." />
             <marker date="1471093770005" expanded="false" signature="3358:3370" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="29" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverDataModelService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="45" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="38" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="71" selection-start="4510" selection-end="4510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="73" selection-start="223" selection-end="235" vertical-scroll-proportion="-1.3076923">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="19" selection-start="4224" selection-end="4224" vertical-scroll-proportion="-20.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="97" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.7973231">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#1;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

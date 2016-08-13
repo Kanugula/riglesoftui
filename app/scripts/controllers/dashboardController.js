@@ -23,7 +23,7 @@ angular.module('reverApp.controllers')
 
             var options = {
                 height: 400,
-                width:300,
+                width:600,
                 title: 'SALES ACTIVITY',
                 pieHole: 0.5,
                 pieSliceTextStyle: {
