@@ -8,6 +8,7 @@
 angular.module('reverApp.controllers')
     .controller('UploadCtrl',['$scope','$location','ReverDataModel', function ($scope,$location,ReverDataModel) {
         console.log(ReverDataModel.getUploadHistory(),"upload data");
+        $scope.uploadHistory =  ReverDataModel.getUploadHistory();
         $scope.redirectTo = function(){
             $location.path('/dashboard');
         }

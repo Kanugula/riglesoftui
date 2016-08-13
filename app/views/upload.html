@@ -1,4 +1,23 @@
 <DIV>UPLOAD TABLE DATA</DIV>
+<table>
+    <thead>
+    <th>UPLOAD FILE NAME</th>
+    <th>UPLOAD STATUS</th>
+    <th>UPLOAD TIME</th>
+    <th>UPLOAD FINISHED TIME</th>
+    <th>TOTAL RECORDS</th>
+    <th>SUCCESS COUNT</th>
+    </thead>
+    <tbody>
+    <tr ng-repeat="data in uploadHistory">
+        <td ng-bind="data.uploadStatus"></td>
+        <td ng-bind="data.uploadTime"></td>
+        <td ng-bind="data.uploadFinished"></td>
+        <td ng-bind="data.totalRecords"></td>
+        <td ng-bind="data.successCount"></td>
+    </tr>
+    </tbody>
+</table>
 <div class="uploadButtons">
     <button type="submit">UPLOAD</button>
     <button type="button" ng-click="redirectTo()">DASHBOARD</button>

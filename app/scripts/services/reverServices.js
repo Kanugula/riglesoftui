@@ -9,21 +9,24 @@ angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
     function ($http,Assets) {
         return {
             loginURL : 'auth/sign-in',
-            uploadDataURL : '',
+            uploadDataURL : 'api/upload',
             dashboardDataURL : '',
             login : function(data){
-                console.log(Assets.apiurl);
                 return $http({
                     method: 'POST',
                     data: data,
-                    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                    headers: {'Content-Type': 'application/json'},
                     url :Assets.apiurl+ this.loginURL
                 });
-                //return $http.post(this.loginURL,data);
             },
 
             getUploadData : function(){
-                return $http.get(Assets.apiurl+this.uploadDataURL);
+                return $http({
+                    method: 'POST',
+                    data: data,
+                    headers: {'Content-Type': 'application/json'},
+                    url :Assets.apiurl+ this.uploadDataURL
+                });
             },
 
             getDashboardData : function(){

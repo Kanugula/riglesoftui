@@ -5,15 +5,17 @@
  * Time: 8:56 PM
  * To change this template use File | Settings | File Templates.
  */
-angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverServices','$rootScope','ToasterService','$location','ReverDataModel',
-    function(ReverServices,$rootScope,ToasterService,$location,ReverDataModel) {
+angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverServices','$rootScope','ToasterService','$location','ReverDataModel','Session',
+    function(ReverServices,$rootScope,ToasterService,$location,ReverDataModel,Session) {
         return {
             authenticateUser : function(user){
                 console.log(user);
                 return ReverServices.login(user).then(function(response){
-                    if(response.data.responseCode === 200){
+                    if(response.status === 200){
+                        Session.put('token',response.data.token);
                         $rootScope.isUserLoggedIn = true;
                         $location.path('/upload');
+                        console.log("token",Session.get('token'));
                     }else{
                         ToasterService.showErrorMessage('error',"Error While Login");
                         $rootScope.isUserLoggedIn = false;
@@ -22,7 +24,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             },
             getUploadHistory : function(){
                 return ReverServices.getUploadData().then(function(response){
-                    if(response.data.responseCode === 200){
+                    if(response.status === 200){
                         ReverDataModel.setUploadHistory(response.data);
                     }else{
                     }
@@ -30,7 +32,7 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
             },
             getDashBoardData : function(){
                 return ReverServices.getDashboardData().then(function(response){
-                    if(response.data.responseCode === 200){
+                    if(response.status === 200){
                         ReverDataModel.getUploadHistory(response.data);
                     }else{
                     }

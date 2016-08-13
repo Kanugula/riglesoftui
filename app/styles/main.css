@@ -110,6 +110,9 @@ body {
 }
 */
 
+.navbar-default {
+    background-color: #3C2A13;
+}
 .container {
     padding: 0;
     width:100%;
@@ -200,4 +203,8 @@ small[aria-label],em {
     flex:1;
     flex-flow: row wrap;
 
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #f8f8f8;
 }
