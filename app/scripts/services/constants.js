@@ -6,5 +6,5 @@
  * To change this template use File | Settings | File Templates.
  */
 angular.module('reverApp').constant('Assets',{
-    "apiurl": "http://localhost:8080/"
+    "apiurl": "http://localhost:8080/api/"
 });

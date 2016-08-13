@@ -12,10 +12,10 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
                 console.log(user);
                 return ReverServices.login(user).then(function(response){
                     if(response.status === 200){
-                        Session.put('token',response.data.token);
+                        Session.put('regus_token',response.data.result.token);
                         $rootScope.isUserLoggedIn = true;
                         $location.path('/upload');
-                        console.log("token",Session.get('token'));
+                        console.log("token",Session.get('regus_token'));
                     }else{
                         ToasterService.showErrorMessage('error',"Error While Login");
                         $rootScope.isUserLoggedIn = false;

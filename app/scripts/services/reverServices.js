@@ -23,7 +23,7 @@ angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
             getUploadData : function(){
                 return $http({
                     method: 'GET',
-                    headers: {'Content-Type': 'application/json'},
+                    headers: {'Content-Type': 'application/json','Authorization': Session.get('regus_token')},
                     url :Assets.apiurl+ this.uploadDataURL
                 });
             },
