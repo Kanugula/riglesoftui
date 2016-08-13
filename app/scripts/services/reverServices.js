@@ -22,8 +22,7 @@ angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
 
             getUploadData : function(){
                 return $http({
-                    method: 'POST',
-                    data: data,
+                    method: 'GET',
                     headers: {'Content-Type': 'application/json'},
                     url :Assets.apiurl+ this.uploadDataURL
                 });

@@ -208,3 +208,23 @@ small[aria-label],em {
 .navbar-default .navbar-nav > .active > a {
     background-color: #f8f8f8;
 }
+
+.upload {
+    float: left;
+    width: 425px;
+    height: 71px;
+    border: 1px dashed #bebebe;
+    text-align: center;
+}
+
+.browse {
+    width: 115px;
+    height: 71px;
+    border: 1px solid #b4b4b4;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(#f5f5f5,#f0f0f0);
+    box-shadow: 0 2px 0 #ebebeb;
+}

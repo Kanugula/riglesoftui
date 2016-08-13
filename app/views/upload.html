@@ -22,3 +22,15 @@
     <button type="submit">UPLOAD</button>
     <button type="button" ng-click="redirectTo()">DASHBOARD</button>
 </div>
+
+
+<div class="bannerImages" id="dragBox">
+    <div class="upload">
+        <span>Drag Files here</span>
+        <fileuploader upload-button-id="fileChooser" url="api/upload"
+                      drop-box-id="dragBox" result-handler="fileUploadResultHandler" multiple="true" campaign-type="brand">
+        </fileuploader>
+    </div>
+    <div class="browse" id="fileChooser"><a>Select Files <br/> from your computer/device</a></div>
+    <div class="clear"></div>
+</div>
