@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" afterPath="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverServices.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload.html" afterPath="$PROJECT_DIR$/app/views/upload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileUploaderService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="65" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="constants.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/constants.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,14 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploader.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FileUploader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.93950176">
+            <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1471093344930" expanded="false" signature="174:186" placeholder="..." />
                 <marker date="1471093344930" expanded="false" signature="3356:3368" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.090747334">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,7 +210,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/scripts/models/reverDataModel.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/Session.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
@@ -227,6 +224,7 @@
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
         <option value="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -563,13 +561,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="60" selection-start="160" selection-end="258" vertical-scroll-proportion="0.0">
@@ -670,11 +661,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.93950176">
+        <state line="51" column="68" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1471093344930" expanded="false" signature="174:186" placeholder="..." />
             <marker date="1471093344930" expanded="false" signature="3356:3368" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.090747334">
+          <folding />
         </state>
       </provider>
     </entry>
