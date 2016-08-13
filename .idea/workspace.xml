@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/constants.js" afterPath="$PROJECT_DIR$/app/scripts/services/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" afterPath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverServices.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
     </list>
     <ignored path="rever.iws" />
@@ -119,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="constants.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="constants.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/constants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="247" selection-end="247" vertical-scroll-proportion="0.24199288">
+            <state line="9" column="41" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reverServices.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reverServices.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="66" selection-start="866" selection-end="879" vertical-scroll-proportion="0.0">
+            <state line="15" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="0.33451957">
               <folding />
             </state>
           </provider>
@@ -224,9 +220,9 @@
         <option value="$PROJECT_DIR$/app/views/upload.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/constants.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/reverServices.js" />
       </list>
     </option>
   </component>
@@ -630,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="66" selection-start="866" selection-end="879" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="65" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.0">
@@ -646,7 +635,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="247" selection-end="247" vertical-scroll-proportion="0.24199288">
+        <state line="9" column="41" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="0.33451957">
           <folding />
         </state>
       </provider>

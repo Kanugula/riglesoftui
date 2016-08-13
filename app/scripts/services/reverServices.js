@@ -9,7 +9,7 @@ angular.module('reverApp.factories').factory('ReverServices', ['$http','Assets',
     function ($http,Assets) {
         return {
             loginURL : 'auth/sign-in',
-            uploadDataURL : 'api/upload',
+            uploadDataURL : 'upload',
             dashboardDataURL : '',
             login : function(data){
                 return $http({
