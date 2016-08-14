@@ -8,7 +8,76 @@
 angular.module('reverApp.controllers')
     .controller('UploadCtrl',['$scope','$location','ReverDataModel','FileUploaderService', function ($scope,$location,ReverDataModel,FileUploaderService) {
         console.log(ReverDataModel.getUploadHistory(),"upload data");
-        $scope.uploadHistory =  ReverDataModel.getUploadHistory();
+        $scope.uploadHistory =  [{
+            "uploadFileName": "productuploadrt1.xls",
+            "uploadType": "PRODUCT",
+            "uploadTime": "2009-06-10",
+            "uploadStatus": true,
+            "uploadFinishedTime": "2009-06-10",
+            "companyId": 11415,
+            "uploadedBy": 2533,
+            "totalRecords": 22,
+            "successCount": 21,
+            "skippedCount": 0,
+            "failedCount": 0,
+            "currentRowProcessed": 22
+        },
+            {
+                "uploadFileName": "productuploadrt.xls",
+                "uploadType": "EQUIPMENT",
+                "uploadTime": "2009-06-10",
+                "uploadStatus": true,
+                "uploadFinishedTime": "2009-06-10",
+                "companyId": 11415,
+                "uploadedBy": 2533,
+                "totalRecords": 25,
+                "successCount": 0,
+                "skippedCount": 24,
+                "failedCount": 0,
+                "currentRowProcessed": 25
+            },
+            {
+                "uploadFileName": "manufacturer product sample iii.xls",
+                "uploadType": "EQUIPMENT",
+                "uploadTime": "2009-05-28",
+                "uploadStatus": true,
+                "uploadFinishedTime": "2009-05-28",
+                "companyId": 1323,
+                "uploadedBy": 2451,
+                "totalRecords": 51,
+                "successCount": 50,
+                "skippedCount": 0,
+                "failedCount": 0,
+                "currentRowProcessed": 51
+            },
+            {
+                "uploadFileName": "manufacturer product sample iii.xls",
+                "uploadType": "EQUIPMENT",
+                "uploadTime": "2009-05-28",
+                "uploadStatus": true,
+                "uploadFinishedTime": "2009-05-28",
+                "companyId": 1323,
+                "uploadedBy": 2451,
+                "totalRecords": 51,
+                "successCount": 50,
+                "skippedCount": 0,
+                "failedCount": 0,
+                "currentRowProcessed": 51
+            },
+            {
+                "uploadFileName": "manufacturer product sample iii.xls",
+                "uploadType": "EQUIPMENT",
+                "uploadTime": "2009-05-28",
+                "uploadStatus": true,
+                "uploadFinishedTime": "2009-05-28",
+                "companyId": 1323,
+                "uploadedBy": 2451,
+                "totalRecords": 51,
+                "successCount": 50,
+                "skippedCount": 0,
+                "failedCount": 0,
+                "currentRowProcessed": 51
+            }];
         $scope.redirectTo = function(){
             $location.path('/dashboard');
         };

@@ -11,9 +11,10 @@
         </thead>
         <tbody>
         <tr ng-repeat="data in uploadHistory">
+            <td ng-bind="data.uploadFileName"></td>
             <td ng-bind="data.uploadStatus"></td>
             <td ng-bind="data.uploadTime"></td>
-            <td ng-bind="data.uploadFinished"></td>
+            <td ng-bind="data.uploadFinishedTime"></td>
             <td ng-bind="data.totalRecords"></td>
             <td ng-bind="data.successCount"></td>
         </tr>
@@ -32,6 +33,7 @@
             <div style="font-size: 13px;color: grey;text-align: left;"><span class="cursorPointer" style="color:#bf0000;text-decoration: underline;" ng-click="exportSample()">Download Sample</span><span>&nbsp<img style="width:15px;" src="images/excel-icon-green.png"/></span> Use this template to upload.</div>
         </div>
         <div class="browse" id="fileChooser"><a>Select Files <br/> from your computer/device</a></div>
+        <div class="browse" ng-click="redirectTo()"><a href="javascript:void(0)" style="position: relative;top:20px;">Show Dashboard</a></div>
 
         <div class="clear"></div>
     </div>

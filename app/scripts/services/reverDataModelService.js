@@ -9,7 +9,6 @@ angular.module('reverApp.factories').factory('ReverDataModelService', ['ReverSer
     function(ReverServices,$rootScope,ToasterService,$location,ReverDataModel,Session) {
         return {
             authenticateUser : function(user){
-                console.log(user);
                 return ReverServices.login(user).then(function(response){
                     if(response.status === 200){
                         Session.put('regus_token',response.data.result.token);

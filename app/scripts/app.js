@@ -27,19 +27,6 @@ angular
         'reverApp.controllers',
 
     ])
-    .run(function($rootScope,$location){
-        $rootScope.$on('$routeChangeStart', function() {
-            $rootScope.showHeader = false;
-            $rootScope.isUserLoggedIn = false;
-
-            var path = $location.path();
-            if(path !== '/login' && path !== '/'){
-                $rootScope.showHeader = true;
-            }else{
-                $rootScope.showHeader = false;
-            }
-        });
-    })
     .config(function ($routeProvider,$httpProvider) {
         $routeProvider
             .when('/', {
@@ -55,12 +42,12 @@ angular
             .when('/upload', {
                 templateUrl: 'views/upload.html',
                 controller: 'UploadCtrl',
-                controllerAs: 'upload'/*,
+                controllerAs: 'upload',
                 resolve : {
                     uploadHistory : function(ReverDataModelService){
                         return ReverDataModelService.getUploadHistory();
                     }
-                }*/
+                }
             })
             .when('/dashboard', {
                 templateUrl: 'views/dashboard.html',
@@ -83,4 +70,4 @@ angular
         $httpProvider.defaults.withCredentials = true;
         //$httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-    });
+    })
