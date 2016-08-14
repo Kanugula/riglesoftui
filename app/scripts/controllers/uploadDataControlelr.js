@@ -11,8 +11,11 @@ angular.module('reverApp.controllers')
         $scope.uploadHistory =  ReverDataModel.getUploadHistory();
         $scope.redirectTo = function(){
             $location.path('/dashboard');
-        }
+        };
 
+        $scope.exportSample=function(){
+            window.open('ExcelSample/WarrantyUploadTemplate.xls');
+        };
 
 
 

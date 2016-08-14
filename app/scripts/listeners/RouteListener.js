@@ -1,34 +1,15 @@
 
-angular.module('reverApp').run(['$rootScope','$window','Session',
-    function ($rootScope,$window,Session) {
+angular.module('reverApp').run(['$rootScope','$window','Session','ContentLoaderService',
+    function ($rootScope,$window,Session,ContentLoaderService) {
 // Page Loading Overlay
 
 
         $rootScope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
             ContentLoaderService.showContentLoader();
-
-            if(Session.get('ICONIC_REACH_TOKEN')){
-                if(Session.get('API_URL')){
-                    var userObjInSession = UserDataModel.getUserObj();
-                    if (!userObjInSession.userId) {
-                        return CommonDataModelService.getUserDetails().then(function(){
-                            RestrictUtility.checkRouteAccess(e, toState);
-                        });
-                    }
-                    else {
-                        RestrictUtility.checkRouteAccess(e, toState);
-                        var createCampaignRoutes = ['createCampaign.basicInfo','createCampaign.selectInfluencers','createCampaign.reviewLaunch'];
-                        var userOutOfCreateCampaign = _.contains(createCampaignRoutes,fromState.name) && !_.contains(createCampaignRoutes,toState.name);
-                        if(userOutOfCreateCampaign){
-                            CampaignDataModel.resetCampaignData();
-                        }
-                    }
+            if(Session.get('regus_token')){
+                if($location.path() === '/' || $location.path() === '/login'){
+                    $location.path('/upload');
                 }
-                else{
-                    e.preventDefault();
-                    return CommonDataModelService.getAppSettings();
-                }
-
             }
             else{
                 e.preventDefault();
