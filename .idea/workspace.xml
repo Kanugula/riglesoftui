@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ExcelSample/SampleEvents.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" afterPath="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ExcelSample/WarrantyUploadTemplate.xls" />
+      <change type="DELETED" beforePath="I:\regilsoftui\riglesoftui\app\ExcelSample\SampleEvents.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rever.iws" />
@@ -160,7 +157,7 @@
       <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="705" selection-end="705" vertical-scroll-proportion="0.6193078">
+            <state line="15" column="53" selection-start="624" selection-end="624" vertical-scroll-proportion="0.46448088">
               <folding />
             </state>
           </provider>
@@ -291,6 +288,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExcelSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,11 +324,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\regilsoftui\riglesoftui\app\ExcelSample" />
       <recent name="I:\regilsoftui\riglesoftui\app" />
       <recent name="I:\regilsoftui\riglesoftui\app\images" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts\services" />
       <recent name="I:\regilsoftui\riglesoftui\app\scripts" />
-      <recent name="I:\regilsoftui\riglesoftui\app\scripts\directives" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\regilsoftui\riglesoftui\app" />
@@ -549,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="705" selection-end="705" vertical-scroll-proportion="0.6193078">
+        <state line="15" column="53" selection-start="624" selection-end="624" vertical-scroll-proportion="0.46448088">
           <folding />
         </state>
       </provider>
