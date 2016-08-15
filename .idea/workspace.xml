@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" afterPath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
     </list>
     <ignored path="rever.iws" />
@@ -57,7 +55,7 @@
     <file path="I:/iconic/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854436366" ignored="false" />
     <file path="I:/portal/.idea/workspace.xml" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470854428049" ignored="false" />
     <file path="/upload.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471259831159" ignored="false" />
-    <file path="/uploadDataControlelr.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471262275087" ignored="false" />
+    <file path="/uploadDataControlelr.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471263616757" ignored="false" />
     <file path="/AccountPayoutMethodController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470911587798" ignored="false" />
     <file path="I:/iconic/app/home/services/AccountService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912305806" ignored="false" />
     <file path="/AccountService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912306593" ignored="false" />
@@ -111,19 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="89" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-10.32">
+            <state line="94" column="10" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.33723196">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toasterService.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="toasterService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/toasterService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5553539">
+            <state line="18" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +139,7 @@
       <file leaf-file-name="fileUploaderService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="59" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0">
+            <state line="64" column="48" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,8 +232,8 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
       </list>
     </option>
   </component>
@@ -615,23 +613,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/toasterService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="59" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0">
+        <state line="64" column="48" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="89" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-10.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/toasterService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5553539">
+        <state line="94" column="10" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.33723196">
           <folding />
         </state>
       </provider>

@@ -59,11 +59,9 @@ angular.module('reverApp.services').factory('FileUploaderService',
                             if(xhr.status === 200) {
                                 if(resultHandlerObj.successCallback) {
                                     resultHandlerObj.successCallback(JSON.parse(xhr.responseText));
-                                    console.log("xhr",JSON.parse(xhr));
                                     if(JSON.parse(xhr.responseText).uploadStatus == false) {
                                         ToasterService.showErrorMessage('file upload','File upload error, please use sample template');
                                     }
-                                    ToasterService.showErrorMessage('file upload','File Upload Success');
                                 }
                             } else{
                                 if(resultHandlerObj.errorCallback){
