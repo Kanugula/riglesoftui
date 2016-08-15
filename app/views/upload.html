@@ -1,5 +1,20 @@
+<div ng-include="'views/topNavigation.html'" class="topNavigation" ng-controller="TopNavCtrl"></div>
+
 <div style="dispaly:flex;padding-top:1%;width: 991px;margin: 0 auto;">
-    <div style="text-align: center;font-size:20px;">UPLOAD HISTORY</div>
+    <div class="bannerImages" id="dragBox">
+        <div style="float: left;">
+            <div class="upload">
+                <span>Drag Files here</span>
+                <fileuploader upload-button-id="fileChooser" url="upload"
+                              drop-box-id="dragBox" result-handler="fileUploadResultHandler" multiple="true" accept=".xml">
+                </fileuploader>
+            </div>
+            <div style="font-size: 13px;color: grey;text-align: left;"><span class="cursorPointer" style="color:#d9edf7;text-decoration: underline;" ng-click="exportSample()">Download Sample</span><span>&nbsp<img style="width:15px;" src="images/excel-icon-green.png"/></span> Use this template to upload.</div>
+        </div>
+        <div class="clear"></div>
+        <button id="fileChooser" class="browse">Browse</button>
+    </div>
+    <div style="text-align: center;font-size:20px;clear:both; color:#FFFFFF">UPLOAD HISTORY</div>
     <table class="custom-table">
         <thead>
         <th>UPLOAD FILE NAME</th>
@@ -22,19 +37,5 @@
     </table>
 
 
-    <div class="bannerImages" id="dragBox">
-        <div style="float: left;">
-            <div class="upload">
-                <span>Drag Files here</span>
-                <fileuploader upload-button-id="fileChooser" url="upload"
-                              drop-box-id="dragBox" result-handler="fileUploadResultHandler" multiple="true" accept=".xml">
-                </fileuploader>
-            </div>
-            <div style="font-size: 13px;color: grey;text-align: left;"><span class="cursorPointer" style="color:#bf0000;text-decoration: underline;" ng-click="exportSample()">Download Sample</span><span>&nbsp<img style="width:15px;" src="images/excel-icon-green.png"/></span> Use this template to upload.</div>
-        </div>
-        <div class="browse" id="fileChooser"><a>Select Files <br/> from your computer/device</a></div>
-        <div class="browse" ng-click="redirectTo()"><a href="javascript:void(0)" style="position: relative;top:20px;">Show Dashboard</a></div>
 
-        <div class="clear"></div>
-    </div>
 </div>

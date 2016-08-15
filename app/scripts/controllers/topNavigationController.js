@@ -6,7 +6,14 @@
  * To change this template use File | Settings | File Templates.
  */
 angular.module('reverApp.controllers')
-    .controller('TopNavCtrl',['$scope', function ($scope) {
+    .controller('TopNavCtrl',['$scope','$location', function ($scope,$location) {
+
+        $scope.path = $location.path();
+
+        $scope.redirectTo = function(path){
+            $location.path('/'+path);
+        };
+
         $scope.today = function() {
             $scope.startDate = new Date();
             $scope.endDate = new Date();

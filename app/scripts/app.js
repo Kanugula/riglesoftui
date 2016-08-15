@@ -42,12 +42,12 @@ angular
             .when('/upload', {
                 templateUrl: 'views/upload.html',
                 controller: 'UploadCtrl',
-                controllerAs: 'upload',
+                controllerAs: 'upload'/*,
                 resolve : {
                     uploadHistory : function(ReverDataModelService){
                         return ReverDataModelService.getUploadHistory();
                     }
-                }
+                }*/
             })
             .when('/dashboard', {
                 templateUrl: 'views/dashboard.html',

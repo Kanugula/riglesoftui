@@ -1,11 +1,11 @@
 <ul>
     <li>HOME</li>
-    <li>SERVICE REQUEST</li>
-    <li>DASHBOARD</li>
-    <li>JOBS</li>
-    <li>QUOTATIONS</li>
+    <li ng-click="redirectTo('upload')">UPLOAD</li>
+    <li ng-click="redirectTo('dashboard')">DASHBOARD</li>
+    <li>ROUTING</li>
+    <li>TRACKING</li>
 </ul>
-<ul class="dateUl">
+<ul class="dateUl" ng-if="path !== '/upload'">
     <li>DATE RANGE</li>
     <li>
         <span>FROM</span>

@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 angular.module('reverApp.controllers')
-    .controller('UploadCtrl',['$scope','$location','ReverDataModel','FileUploaderService', function ($scope,$location,ReverDataModel,FileUploaderService) {
+    .controller('UploadCtrl',['$scope','$location','ReverDataModel','FileUploaderService','ToasterService', function ($scope,$location,ReverDataModel,FileUploaderService,ToasterService) {
         console.log(ReverDataModel.getUploadHistory(),"upload data");
         $scope.uploadHistory =  [{
             "uploadFileName": "productuploadrt1.xls",
@@ -63,20 +63,6 @@ angular.module('reverApp.controllers')
                 "skippedCount": 0,
                 "failedCount": 0,
                 "currentRowProcessed": 51
-            },
-            {
-                "uploadFileName": "manufacturer product sample iii.xls",
-                "uploadType": "EQUIPMENT",
-                "uploadTime": "2009-05-28",
-                "uploadStatus": true,
-                "uploadFinishedTime": "2009-05-28",
-                "companyId": 1323,
-                "uploadedBy": 2451,
-                "totalRecords": 51,
-                "successCount": 50,
-                "skippedCount": 0,
-                "failedCount": 0,
-                "currentRowProcessed": 51
             }];
         $scope.redirectTo = function(){
             $location.path('/dashboard');
@@ -100,16 +86,18 @@ angular.module('reverApp.controllers')
             });
         });
         fileUploadResultHandler.setSuccessCallback(function (result) {
+            console.log(result,"result");
             $scope.$apply(function () {
-                if(result.responseCode===200){
+                if(result.status === 200){
                     for (var index in result.fileData) {
                     }
                     $scope.status = "Finished";
                     $scope.percentComplete = 0;
                     $scope.status = "";
+                    ToasterService.showSuccessMessage('File Upload',"Error While Login");
                 }
                 else{
-                    $scope.status = "File upload error, please upload only images of type .jpg/.png/.gif";
+                    ToasterService.showErrorMessage('File Upload',"File upload error, please use sample template");
                     $scope.percentComplete = 0;
                 }
             });

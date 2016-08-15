@@ -12,6 +12,7 @@ angular.module('reverApp.controllers')
 
         google.charts.load("current", {packages:["corechart"]});
         google.charts.setOnLoadCallback(drawChart);
+
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
                 ['Task', 'Hours per Day'],
@@ -42,41 +43,41 @@ angular.module('reverApp.controllers')
             console.log(options.width/2-50)
             $("text:contains(" + options.title + ")").attr({'x':options.width/2-50, 'y':'40'});
         }
-        /*$scope.myChartObject = {};
+        $scope.myChartObject = {};
 
-         $scope.myChartObject.type = "LineChart";
+        $scope.myChartObject.type = "LineChart";
 
-         $scope.onions = [
-         {v: "Onions"},
-         {v: 3},
-         ];
+        $scope.onions = [
+            {v: ""},
+            {v: 3},
+        ];
 
-         $scope.myChartObject.data = {"cols": [
-         {id: "t", label: "Topping", type: "date"},
-         {id: "s", label: "Slices", type: "number"}
-         ], "rows": [
-         {c: [
-         {v: "new Date(2314, 2, 15)"},
-         {v: 3},
-         ]},
-         {c: $scope.onions},
-         {c: [
-         {v: "new Date(2314, 2, 15)"},
-         {v: 31}
-         ]},
-         {c: [
-         {v: "new Date(2314, 2, 15)"},
-         {v: 1},
-         ]},
-         {c: [
-         {v: "new Date(2314, 2, 15)"},
-         {v: 2},
-         ]}
-         ]};
+        $scope.myChartObject.data = {"cols": [
+            {id: "t", label: "Topping", type: "date"},
+            {id: "s", label: "Slices", type: "number"}
+        ], "rows": [
+            {c: [
+                {v: "new Date(2314, 2, 15)"},
+                {v: 3},
+            ]},
+            {c: $scope.onions},
+            {c: [
+                {v: "new Date(2314, 2, 15)"},
+                {v: 31}
+            ]},
+            {c: [
+                {v: "new Date(2314, 2, 15)"},
+                {v: 1},
+            ]},
+            {c: [
+                {v: "new Date(2314, 2, 15)"},
+                {v: 2},
+            ]}
+        ]};
 
-         $scope.myChartObject.options = {
-         'title': 'How Much Pizza I Ate Last Night'
-         };*/
+        $scope.myChartObject.options = {
+            'title': 'How Much Pizza I Ate Last Night'
+        };
 
 
         $scope.today = function() {
@@ -174,6 +175,26 @@ angular.module('reverApp.controllers')
             }
 
             return '';
+        }
+
+
+
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['Country', 'Popularity'],
+                ['South America', 600],
+                ['Canada', 500],
+                ['France', 600],
+                ['Russia', 700],
+                ['Australia', 600]
+            ]);
+
+            var options = { displayMode: 'text' };
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+            chart.draw(data, options);
         }
 
 
