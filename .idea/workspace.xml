@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" afterPath="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard.html" afterPath="$PROJECT_DIR$/app/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +36,7 @@
     <file path="$PROJECT_DIR$/app/bower_components/bootstrap/less/theme.less" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470660970969" ignored="false" />
     <file path="/ProfileInformation.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470677772411" ignored="false" />
     <file path="$USER_HOME$/Desktop/static/js/hello.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470743912575" ignored="false" />
-    <file path="/dashboardController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470759430916" ignored="false" />
+    <file path="/dashboardController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471267154628" ignored="false" />
     <file path="I:/iconic/app/brandbusiness/controllers/accounts/BrandBusinessProfileInformationController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470747653296" ignored="false" />
     <file path="/main.css" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471259510437" ignored="false" />
     <file path="/dashboard.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471253843176" ignored="false" />
@@ -91,28 +93,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="30" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-12.5">
+            <state line="103" column="13" selection-start="3595" selection-end="3726" vertical-scroll-proportion="0.93359375">
               <folding>
                 <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="10" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.33723196">
+            <state line="92" column="110" selection-start="3240" selection-end="3240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +141,7 @@
       <file leaf-file-name="fileUploaderService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="48" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.0">
+            <state line="17" column="96" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,7 +159,7 @@
       <file leaf-file-name="dashboardController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="13" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,7 +168,7 @@
       <file leaf-file-name="mapsController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/mapsController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+            <state line="19" column="7" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
@@ -177,7 +179,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2917" selection-end="2917" vertical-scroll-proportion="-9.230769">
+            <state line="95" column="0" selection-start="4427" selection-end="4427" vertical-scroll-proportion="-16.423077">
               <folding />
             </state>
           </provider>
@@ -226,14 +228,14 @@
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/views/topNavigation.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js" />
-        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/mapsController.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/mapsController.js" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
       </list>
     </option>
   </component>
@@ -553,48 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="30" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-12.5">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="42" selection-start="240" selection-end="241" vertical-scroll-proportion="-4.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/mapsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#158#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2917" selection-end="2917" vertical-scroll-proportion="-9.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -620,17 +583,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="48" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.0">
+        <state line="92" column="110" selection-start="3240" selection-end="3240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="10" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.33723196">
+        <state line="17" column="96" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="4427" selection-end="4427" vertical-scroll-proportion="-16.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/mapsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="13" selection-start="3595" selection-end="3726" vertical-scroll-proportion="0.93359375">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

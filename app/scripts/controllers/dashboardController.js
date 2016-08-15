@@ -8,10 +8,10 @@
  * Controller of the reverApp
  */
 angular.module('reverApp.controllers')
-    .controller('DashboardCtrl',['$scope', function ($scope) {
+    .controller('DashboardCtrl',['$scope','$routeParams', function ($scope,$routeParams) {
 
-        google.charts.load("current", {packages:["corechart"]});
-        google.charts.setOnLoadCallback(drawChart);
+         google.charts.load("current", {packages:["corechart",'geochart']});
+         google.charts.setOnLoadCallback(drawChart);
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
@@ -43,42 +43,50 @@ angular.module('reverApp.controllers')
             console.log(options.width/2-50)
             $("text:contains(" + options.title + ")").attr({'x':options.width/2-50, 'y':'40'});
         }
-        $scope.myChartObject = {};
 
-        $scope.myChartObject.type = "LineChart";
+        $scope.chartObject = {};
 
         $scope.onions = [
             {v: ""},
             {v: 3},
         ];
 
-        $scope.myChartObject.data = {"cols": [
-            {id: "t", label: "Topping", type: "date"},
-            {id: "s", label: "Slices", type: "number"}
+        $scope.chartObject.data = {"cols": [
+            {id: "t", label: "date", type: "string"},
+            {id: "s", label: "Total Registrations", type: "number"}
         ], "rows": [
             {c: [
-                {v: "new Date(2314, 2, 15)"},
-                {v: 3},
+                {v: "Wed 15 Jul 2015"},
+                {v: 100},
             ]},
-            {c: $scope.onions},
-            {c: [
-                {v: "new Date(2314, 2, 15)"},
-                {v: 31}
-            ]},
-            {c: [
-                {v: "new Date(2314, 2, 15)"},
-                {v: 1},
+            {c:  [
+                {v: "Wed 15 Jul 2015"},
+                {v: 500},
             ]},
             {c: [
-                {v: "new Date(2314, 2, 15)"},
-                {v: 2},
+                {v: "Fri 20 Aug 2016"},
+                {v: 131}
+            ]},
+            {c: [
+                {v: "Sat 25 Sep 2016"},
+                {v: 506},
+            ]},
+            {c: [
+                {v: "Mon 31 Oct 2016"},
+                {v: 200},
             ]}
         ]};
 
-        $scope.myChartObject.options = {
-            'title': 'How Much Pizza I Ate Last Night'
-        };
 
+        // $routeParams.chartType == BarChart or PieChart or ColumnChart...
+        $scope.chartObject.type = 'AreaChart';
+        $scope.chartObject.options = {
+            'title': '',
+            pointSize: 10,
+            legend: 'none',
+            backgroundColor: '#887D79',
+            colors: ['#FFFFFF']
+        };
 
         $scope.today = function() {
             $scope.startDate = new Date();
