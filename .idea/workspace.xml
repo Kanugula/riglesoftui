@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" afterPath="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" afterPath="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload.html" afterPath="$PROJECT_DIR$/app/views/upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard.html" afterPath="$PROJECT_DIR$/app/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
     </list>
     <ignored path="rever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +38,8 @@
     <file path="$USER_HOME$/Desktop/static/js/hello.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470743912575" ignored="false" />
     <file path="/dashboardController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470759430916" ignored="false" />
     <file path="I:/iconic/app/brandbusiness/controllers/accounts/BrandBusinessProfileInformationController.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470747653296" ignored="false" />
-    <file path="/main.css" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471102004375" ignored="false" />
-    <file path="/dashboard.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471160789790" ignored="false" />
+    <file path="/main.css" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471247512354" ignored="false" />
+    <file path="/dashboard.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1471247463926" ignored="false" />
     <file path="I:/iconic/app/common/directives/CommonDirectives.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470810642117" ignored="false" />
     <file path="/HomeDataModelService.js" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470912175755" ignored="false" />
     <file path="I:/iconic/app/home/views/enroll.html" changelist="b579c4de-d109-4760-9fb0-3e2e6f2a7bd9" time="1470832540685" ignored="false" />
@@ -95,15 +93,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fileUploaderService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="38" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RouteListener.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/listeners/RouteListener.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="117" selection-start="953" selection-end="953" vertical-scroll-proportion="0.59891105">
+            <state line="64" column="47" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,37 +141,48 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="61" selection-start="698" selection-end="698" vertical-scroll-proportion="-12.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="116" selection-start="1774" selection-end="1774" vertical-scroll-proportion="-16.846153">
+            <state line="17" column="110" selection-start="836" selection-end="836" vertical-scroll-proportion="-11.115385">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadDataControlelr.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js">
+      <file leaf-file-name="dashboardController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="78" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="17" column="31" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5245009">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reverServices.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
+      <file leaf-file-name="topNavigation.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/topNavigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="107" selection-start="908" selection-end="921" vertical-scroll-proportion="0.0">
+            <state line="9" column="63" selection-start="175" selection-end="175" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topNavigationController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="7" selection-start="266" selection-end="2936" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="298" column="9" selection-start="4465" selection-end="4465" vertical-scroll-proportion="-2.72">
               <folding />
             </state>
           </provider>
@@ -220,16 +220,16 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/scripts/directives/FileUploader.js" />
         <option value="$PROJECT_DIR$/app/views/header.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/services/fileUploaderService.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
         <option value="$PROJECT_DIR$/app/views/upload.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/uploadDataControlelr.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/reverDataModelService.js" />
         <option value="$PROJECT_DIR$/app/scripts/listeners/RouteListener.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
       </list>
     </option>
   </component>
@@ -318,7 +318,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExcelSample" />
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riglesoftui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,12 +410,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21585903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21585903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -479,18 +501,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/ContentLoaderService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="18" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/FileUploader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="72" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
@@ -508,20 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="19" selection-start="4224" selection-end="4224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/fileUploaderService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="38" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.0">
@@ -532,13 +528,6 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/services/reverServices.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="107" selection-start="908" selection-end="921" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="61" selection-start="698" selection-end="698" vertical-scroll-proportion="-12.769231">
           <folding />
         </state>
       </provider>
@@ -590,7 +579,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="117" selection-start="953" selection-end="953" vertical-scroll-proportion="0.59891105">
+        <state line="64" column="47" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/topNavigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="63" selection-start="175" selection-end="175" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/topNavigationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="7" selection-start="266" selection-end="2936" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="110" selection-start="836" selection-end="836" vertical-scroll-proportion="-11.115385">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="9" selection-start="4465" selection-end="4465" vertical-scroll-proportion="-2.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboardController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5245009">
           <folding />
         </state>
       </provider>

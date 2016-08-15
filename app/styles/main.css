@@ -120,6 +120,7 @@ body {
 .container {
     padding: 0;
     width:100%;
+    background-color: #4d3c35
 }
 .flexContainer {
     display: flex;
@@ -279,4 +280,44 @@ small[aria-label],em {
 
 .cursorPointer {
     cursor: pointer;
+}
+
+
+.dashboardMain {
+    display: flex;
+    flex-flow: row wrap;
+    padding:20px;
+}
+
+.dashboardHead {
+    flex:1;
+    color: #ffffff;
+    font-size: 25px;
+}
+.dashboardHead i {
+   padding-right:20px;
+   margin-right:20px;
+}
+
+.dashboardNav {
+    flex:1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+
+.dashboardNav > .NavItem{
+    flex:1;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #774E48;
+    color:#ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.dashboardNav > .NavItem:last-child {
+    background-color: #0066bb;
+    margin-right: 0;
+    text-align:center;
 }

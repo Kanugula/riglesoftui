@@ -1,4 +1,48 @@
 <div ng-include="'views/topNavigation.html'" class="topNavigation" ng-controller="TopNavCtrl"></div>
+<div class="dashboardMain">
+    <div class="dashboardHead"><i class="glyphicon glyphicon-home"></i><span>Dashboard</span></div>
+    <div class="dashboardNav">
+        <!--<div class="item">
+            <select>
+                <option value="Test">test</option>
+                </select>
+        </div>-->
+        <div class="NavItem">Company</div>
+        <div class="NavItem">Brand</div>
+        <div class="NavItem">Product Type</div>
+        <div class="NavItem">Submit</div>
+    </div>
+</div>
+<div style="margin:10px;">
+    <div class="topNavigation" style="background-color: #887D79; border-bottom: 1px solid #cccccc">
+        <div class="dashboardHead"><i class="glyphicon glyphicon-stats" style="border-right:1px solid #CCCCCC;"></i><span>Registration Status</span></div>
+        <ul class="dateUl">
+            <li>DATE RANGE</li>
+            <li>
+                <span>FROM</span>
+        <span>
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="startDate" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+          </span>
+            </p>
+        </span>
+            </li>
+            <li>
+                <span>TO</span>
+        <span>
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="endDate" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open2()"><i class="glyphicon glyphicon-calendar"></i></button>
+          </span>
+            </p>
+        </span>
+            </li>
+        </ul>
+    </div>
+</div>
 <div style="display: flex;flex-direction: row;">
     <table style="width:50%; margin-right:30px;margin-left:20px;" class="custom-table">
         <thead>
@@ -33,5 +77,6 @@
         </tr>
         </tbody>
     </table>
-    <div id="donutchart" style="width:50%;margin-top:5%;"></div>
+    <div id="donutchart" style="width:45%;margin-top:5%;"></div>
 </div>
+
