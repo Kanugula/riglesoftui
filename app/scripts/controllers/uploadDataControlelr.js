@@ -8,7 +8,8 @@
 angular.module('reverApp.controllers')
     .controller('UploadCtrl',['$scope','$location','ReverDataModel','FileUploaderService','ToasterService', function ($scope,$location,ReverDataModel,FileUploaderService,ToasterService) {
         console.log(ReverDataModel.getUploadHistory(),"upload data");
-        $scope.uploadHistory =  [{
+        $scope.uploadHistory = ReverDataModel.getUploadHistory();
+       /* $scope.uploadHistory =  [{
             "uploadFileName": "productuploadrt1.xls",
             "uploadType": "PRODUCT",
             "uploadTime": "2009-06-10",
@@ -63,7 +64,7 @@ angular.module('reverApp.controllers')
                 "skippedCount": 0,
                 "failedCount": 0,
                 "currentRowProcessed": 51
-            }];
+            }];*/
         $scope.redirectTo = function(){
             $location.path('/dashboard');
         };
