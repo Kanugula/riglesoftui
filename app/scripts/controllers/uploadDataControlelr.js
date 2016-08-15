@@ -89,12 +89,14 @@ angular.module('reverApp.controllers')
             console.log(result,"result");
             $scope.$apply(function () {
                 if(result.status === 200){
+
+                    $scope.uploadHistory.push(result);
                     for (var index in result.fileData) {
                     }
                     $scope.status = "Finished";
                     $scope.percentComplete = 0;
                     $scope.status = "";
-                    ToasterService.showSuccessMessage('File Upload',"Error While Login");
+                    ToasterService.showSuccessMessage('File Upload',"File Upload Success");
                 }
                 else{
                     ToasterService.showErrorMessage('File Upload',"File upload error, please use sample template");

@@ -37,8 +37,8 @@ angular.module('reverApp.services').factory('FileUploaderService',
                     console.log(formData,$files[0]);
 
                     /*for (var i = 0; i < $files.length; i++) {
-                        formData.append("file" + i, $files[i]);
-                    }*/
+                     formData.append("file" + i, $files[i]);
+                     }*/
 
                     var xhr = new XMLHttpRequest;
 
@@ -59,11 +59,12 @@ angular.module('reverApp.services').factory('FileUploaderService',
                             if(xhr.status === 200) {
                                 if(resultHandlerObj.successCallback) {
                                     resultHandlerObj.successCallback(JSON.parse(xhr.responseText));
+                                    console.log("xhr",JSON.parse(xhr));
                                     if(JSON.parse(xhr.responseText).responseCode === 401) {
                                         $location.path("/login");
-                                        ToasterService.showErrorMessage('file upload',JSON.parse(xhr.responseText).responseData.message);
+                                        ToasterService.showErrorMessage('file upload','File upload error, please use sample template');
                                     }
-                                    ToasterService.showErrorMessage(JSON.parse(xhr.responseText).responseData.message);
+                                    ToasterService.showErrorMessage('file upload','File Upload Success');
                                 }
                             } else{
                                 if(resultHandlerObj.errorCallback){
