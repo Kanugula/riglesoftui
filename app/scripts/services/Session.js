@@ -1,5 +1,5 @@
 
-angular.module('reverApp.factories').factory('Session',['$window','$cookies',function($window,$cookies){
+angular.module('reverApp.factories').factory('Session',['$window','$cookies','$location', function($window,$cookies,$location){
 
     return {
         put : function (key, value) {
@@ -14,13 +14,15 @@ angular.module('reverApp.factories').factory('Session',['$window','$cookies',fun
         },
 
         destroy : function () {
-            var path = $window.location.pathname;
+            var path = $location.path();
+            console.log(path);
             localStorage.clear();
             angular.forEach($cookies.getAll(), function(value, key) {
                 $cookies.remove(key,{ path: '/' });
             });
-
-            /*if(path.indexOf('/brandbusiness') > -1 || path.indexOf('/influencer') > -1){
+            $location.path('/login');
+/*
+            if(path.indexOf('/upload') > -1 || path.indexOf('/dashboard') > -1){
              $window.location.href='../';
              }
              else{

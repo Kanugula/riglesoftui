@@ -40,7 +40,6 @@ angular.module('reverApp.controllers')
 
             var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
             chart.draw(data, options);
-            console.log(options.width/2-50)
             $("text:contains(" + options.title + ")").attr({'x':options.width/2-50, 'y':'40'});
         }
 
